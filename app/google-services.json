@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "1013235766630",
+    "firebase_url": "https://neocambio-c504a.firebaseio.com",
+    "project_id": "neocambio-c504a",
+    "storage_bucket": "neocambio-c504a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013235766630:android:1ea1e5c0c91be334",
+        "android_client_info": {
+          "package_name": "net.jptechnology.android.neocambio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013235766630-p8q9q16vunqdeshfgqngrmbrvvh73ilv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASl-qdxCmHDoRiJIR8vEbkbqiE5l2RG0w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013235766630:android:f1f6bc887c4343a9",
+        "android_client_info": {
+          "package_name": "net.jptechnology.android.takehomeassignment09_johnp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013235766630-p8q9q16vunqdeshfgqngrmbrvvh73ilv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASl-qdxCmHDoRiJIR8vEbkbqiE5l2RG0w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013235766630:android:320fbde4aaeda533",
+        "android_client_info": {
+          "package_name": "com.example.android.takehomeassignment09_stevez"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013235766630-p8q9q16vunqdeshfgqngrmbrvvh73ilv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASl-qdxCmHDoRiJIR8vEbkbqiE5l2RG0w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
