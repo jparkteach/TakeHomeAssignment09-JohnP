@@ -1,8 +1,173 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="net.jptechnology.android.takehomeassignment09_johnp.SecondActivity">
 
+    <EditText
+        android:id="@+id/vendorNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Vendor Name"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/logoUrlText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Logo URL"
+        android:inputType="textUri"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vendorNameText" />
+
+    <CheckBox
+        android:id="@+id/freeShipCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="Offers Free Shipping"
+        app:layout_constraintTop_toBottomOf="@+id/logoUrlText"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/logoUrlText" />
+
+    <CheckBox
+        android:id="@+id/isPickupAvailableCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Local Pickup Available"
+        app:layout_constraintTop_toBottomOf="@+id/freeShipCheckBox"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/freeShipCheckBox" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:text="1 Dollar ="
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/isPickupAvailableCheckBox"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/isPickupAvailableCheckBox" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="64dp"
+        android:text="1 Dollar ="
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="@+id/isPickupAvailableCheckBox"
+        app:layout_constraintTop_toBottomOf="@+id/isPickupAvailableCheckBox" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="8dp"
+        android:text="1 Dollar ="
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="@+id/isPickupAvailableCheckBox"
+        app:layout_constraintTop_toBottomOf="@+id/isPickupAvailableCheckBox" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="112dp"
+        android:text="Reais"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toRightOf="@+id/exchangeRateYenText"
+        app:layout_constraintTop_toBottomOf="@+id/isPickupAvailableCheckBox" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="64dp"
+        android:text="Euros"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toRightOf="@+id/exchangeRateYenText"
+        app:layout_constraintTop_toBottomOf="@+id/isPickupAvailableCheckBox" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Yen"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toRightOf="@+id/exchangeRateYenText"
+        app:layout_constraintTop_toBottomOf="@+id/isPickupAvailableCheckBox" />
+
+    <EditText
+        android:id="@+id/exchangeRateYenText"
+        android:layout_width="88dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:maxLines="1"
+        app:layout_constraintLeft_toRightOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/isPickupAvailableCheckBox" />
+
+    <EditText
+        android:id="@+id/exchangeRateRealText"
+        android:layout_width="88dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginTop="112dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:maxLines="1"
+        app:layout_constraintLeft_toRightOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/isPickupAvailableCheckBox" />
+
+    <EditText
+        android:id="@+id/exchangeRateEuroText"
+        android:layout_width="88dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:maxLines="1"
+        app:layout_constraintLeft_toRightOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/isPickupAvailableCheckBox" />
+
+    <Button
+        android:id="@+id/add_firebase"
+        android:layout_width="209dp"
+        android:layout_height="96dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:onClick="addFirebase"
+        android:text="Add to Firebase"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="407dp" />
 </android.support.constraint.ConstraintLayout>
